@@ -1,0 +1,28 @@
+.loader-main-container{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.message-color{
+    color: #673ab7;
+}
+
+.spinner {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background: conic-gradient(#0000 10%,#2196f3);
+    mask: radial-gradient(farthest-side,#0000 calc(100% - 14.1px),#000 0);
+    animation: spinner-zp9dbg 0.8s infinite linear;
+ }
+ 
+ @keyframes spinner-zp9dbg {
+    to {
+       transform: rotate(1turn);
+    }
+ }
